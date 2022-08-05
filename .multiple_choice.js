@@ -127,7 +127,7 @@ if (choice_correct)
 	ec.innerHTML = choice_correct.outerHTML;
 	ec.outerHTML = ec.outerHTML.replace("answer", "correct");
  	choice_correct.style.display = 'none';
-	$(':button').prop('disabled', true); // Disable all the buttons
+	$('#qa :button').prop('disabled', true); // Disable all the buttons
 
 }
 
