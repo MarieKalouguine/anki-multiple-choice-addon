@@ -1,0 +1,58 @@
+button,
+.nightMode button{
+	padding:  8px;
+	border-radius: 8px;
+	margin: auto;
+	margin-bottom: 10px;
+	border: 0;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+	display: flex;
+	font-size: 20px;
+}
+button,
+button:disabled,
+button:disabled:hover,
+button:disabled:active,
+button:disabled:hover:active{
+	background: #f0f0f0;
+	color: #000000;
+}
+.nightMode button,
+.nightMode button:disabled,
+.nightMode button:disabled:hover,
+.nightMode button:disabled:active,
+.nightMode button:disabled:hover:active{
+	background: #505050;
+	color: #ffffff;
+}
+
+button,
+button:hover,
+button:focus,
+.nightMode button,
+.nightMode button:hover,
+.nightMode button:focus{
+	outline: none;
+	box-shadow: none;
+}
+button:hover:not([disabled]),
+button:focus:not([disabled]),
+#chosen,
+button.clicked {
+	background: #909090;
+}
+
+.nightMode button.answer {
+	border-left: 5px solid #151515;
+}
+button.answer {
+	border-left: 5px solid #505050;
+}
+button.correct{
+	border-left: 5px solid #50ff50;
+}
+button.wrong {
+	border-left: 5px solid #ff5050;
+}
